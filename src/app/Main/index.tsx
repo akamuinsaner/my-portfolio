@@ -37,7 +37,8 @@ export default function Main() {
                 <div className='flex gap-x-4'>
                     <a
                         className="flex gap-x-2 rounded-full border-2 bg-none py-2 px-4 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base border-orange-500 ring-orange-500"
-                        href="http://101.42.247.31/resume"
+                        href="/resume"
+                        target="_blank"
                     >
                         Resume
                         <CloudDownloadIcon />
