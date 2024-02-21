@@ -13,28 +13,18 @@ export default function Contact() {
     const onSubmit = (e: any) => {
         e.preventDefault();
         fetch(
-            `https://api.us.nylas.com/v3/grants/${'630134b4-0917-4bc0-9ff5-09d2abd96b31'}/messages/send`,
+            `/contact`,
             {
                 method: 'POST',
                 headers: {
-                    'Authorization': `Bearer nyk_v0_9nWqwwIht64RU0xZavwOpZeuxbPBr0dZt7UczroLOiuGZ2gaExxIPFgxahAEYd91`,
                     'Content-Type': 'application/json'
                 },
-                body: JSON.stringify({
-                    "subject": `From Nylas`,
-                    "from": [{
-                        "email": "elcidwang@gmail.com",
-                        "name": "elcidwang"
-                    }],
-                    "to": [{
-                        "email": 'elcidwang@gmail.com',
-                        "name": 'elcidwang'
-                    }],
-                    "body": `${emailData.name}-${emailData.email}-${emailData.message}`,
-                })
+                body: JSON.stringify(emailData),
             }
-
-        )
+        ).then(res => res.json())
+        .then(data => {
+            alert('Send successfully!')
+        })
     }
 
     return (

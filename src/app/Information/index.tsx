@@ -1,5 +1,3 @@
-import Link from 'next/Link';
-
 const SKILLS = [
     {
         name: 'Programming language',
@@ -68,7 +66,7 @@ export default function Information() {
                         <h2 className="text-xl font-bold">BE Communication Engineering</h2>
                         <div className="flex items-center justify-center gap-x-2 md:justify-start">
                             <span className="flex-1 text-sm font-medium italic sm:flex-none">
-                                <Link href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China</Link>
+                                <a href="https://en.uestc.edu.cn/">University of Electronic Science and Technology of China</a>
                             </span>
                             <span>•</span>
                             <span className="flex-1 text-sm sm:flex-none">Sep 2012 - Jun 2016</span>
@@ -84,7 +82,7 @@ export default function Information() {
                             <h2 className="text-xl font-bold">Senior Frontend Engineer</h2>
                             <div className="flex items-center justify-center gap-x-2 md:justify-start">
                                 <span className="flex-1 text-sm font-medium italic sm:flex-none">
-                                    <Link href="https://www.perfectworld.com/">Perfect World Co., Ltd.</Link>
+                                    <a href="https://www.perfectworld.com/">Perfect World Co., Ltd.</a>
                                 </span>
                                 <span>•</span>
                                 <span className="flex-1 text-sm sm:flex-none">Jul 2020 - Oct 2023 / Beijing China</span>
@@ -112,7 +110,7 @@ export default function Information() {
                             <h2 className="text-xl font-bold">Full Stack Engineer</h2>
                             <div className="flex items-center justify-center gap-x-2 md:justify-start">
                                 <span className="flex-1 text-sm font-medium italic sm:flex-none">
-                                    <Link href="https://flowpp.com/">赋乐科技（Flow++)</Link>
+                                    <a href="https://flowpp.com/">赋乐科技（Flow++)</a>
                                 </span>
                                 <span>•</span>
                                 <span className="flex-1 text-sm sm:flex-none">Jul 2019 - Jul 2020 / Beijing China</span>
@@ -208,13 +206,13 @@ export default function Information() {
                                 <div>
                                     <label className="inline-block w-24">website:</label>
                                     <span className="flex-1 text-sm font-medium italic sm:flex-none">
-                                        <Link href="https://mr-component.site/">https://mr-component.site/</Link>
+                                        <a href="https://mr-component.site/">https://mr-component.site/</a>
                                     </span>
                                 </div>
                                 <div>
                                     <label className="inline-block w-24">github:</label>
                                     <span className="flex-1 text-sm font-medium italic sm:flex-none">
-                                        <Link href="https://github.com/akamuinsaner/mr-components">https://github.com/akamuinsaner/mr-components</Link>
+                                        <a href="https://github.com/akamuinsaner/mr-components">https://github.com/akamuinsaner/mr-components</a>
                                     </span>
                                 </div>
                                 <div>
@@ -230,13 +228,13 @@ export default function Information() {
                                 <div>
                                     <label className="inline-block w-24">github1:</label>
                                     <span className="flex-1 text-sm font-medium italic sm:flex-none">
-                                        <Link href="https://github.com/akamuinsaner/shuaibb-frontend">https://github.com/akamuinsaner/shuaibb-frontend</Link>
+                                        <a href="https://github.com/akamuinsaner/shuaibb-frontend">https://github.com/akamuinsaner/shuaibb-frontend</a>
                                     </span>
                                 </div>
                                 <div>
                                     <label className="inline-block w-24">github2:</label>
                                     <span className="flex-1 text-sm font-medium italic sm:flex-none">
-                                        <Link href="https://github.com/akamuinsaner/shuaibb-backend">https://github.com/akamuinsaner/shuaibb-backend</Link>
+                                        <a href="https://github.com/akamuinsaner/shuaibb-backend">https://github.com/akamuinsaner/shuaibb-backend</a>
                                     </span>
                                 </div>
                                 <div>
