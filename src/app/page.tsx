@@ -3,6 +3,7 @@ import Main from './Main';
 import About from './About';
 import Information from './Information';
 import Contact from './Contact';
+import Footer from './Footer';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <About />
       <Information />
       <Contact />
+      <Footer />
     </main>
   );
 }

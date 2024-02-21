@@ -58,7 +58,7 @@ const SKILLS = [
 
 export default function Information() {
     return (
-        <section className="p-40 bg-[url('/info-bg.jpg')] bg-cover bg-center">
+        <section id="information" className="bg-[url('/info-bg.jpg')] bg-cover md:py-24 lg:px-8 p-4">
             <div className="mx-auto max-w-screen-lg divide-y-2 divide-neutral-300">
                 <div className="grid grid-cols-1 gap-y-4 py-8 first:pt-0 last:pb-0 md:grid-cols-4">
                     <div className="col-span-1 flex justify-center md:justify-start">
@@ -90,7 +90,7 @@ export default function Information() {
                                 <span className="flex-1 text-sm sm:flex-none">Jul 2020 - Oct 2023 / Beijing China</span>
                             </div>
                             <ul className='mt-4 flex flex-col gap-4'>
-                                <li>Collaborated with team members to jointly develop the company's internal community
+                                <li>Collaborated with team members to jointly develop the company&rsquo;s internal community
                                     app with embedded H5 and game-embedded community</li>
                                 <li>
                                     Collaborated with the server-side team to develop a fully functional and deliverable
@@ -121,7 +121,7 @@ export default function Information() {
                                 <li>Developed the Flow series of internal systems for the company using Preact, TypeScript
                                     , Node.js, and MySQL.</li>
                                 <li>
-                                    Developed Preact-based form validation component (similar to Ant Design's Form) and
+                                    Developed Preact-based form validation component (similar to Ant Design&rsquo;s Form) and
                                     implemented it within the system, increasing the code development efficiency.
                                 </li>
                                 <li>
@@ -145,12 +145,12 @@ export default function Information() {
                                 <span className="flex-1 text-sm sm:flex-none">Aug 2017 - June 2019 / Dalian China</span>
                             </div>
                             <ul className='mt-4 flex flex-col gap-4'>
-                                <li>Used technical tools such as HTML5, Less, and Webpack to build the company's official
+                                <li>Used technical tools such as HTML5, Less, and Webpack to build the company&rsquo;s official
                                     website, and integrated tools like Docker and Jenkins to achieve automated building and
                                     deployment.
                                 </li>
                                 <li>
-                                    Modified HTML files to optimize the company's official website for SEO search increasing
+                                    Modified HTML files to optimize the company&rsquo;s official website for SEO search increasing
                                     website traffic by nearly 70%.
                                 </li>
                                 <li>
@@ -174,12 +174,12 @@ export default function Information() {
                         <div className='grid grid-cols-1 gap-6 md:grid-cols-2'>
                             {
                                 SKILLS.map(item => (
-                                    <div className='flex flex-col'>
+                                    <div key={item.name} className='flex flex-col'>
                                         <span className="text-center text-lg font-bold">{item.name}</span>
                                         <div className="flex flex-col gap-y-2">
                                             {
                                                 item.skills.map((item => (
-                                                    <div className="flex flex-col">
+                                                    <div key={item.name} className="flex flex-col">
                                                         <span className="ml-2 text-sm font-medium">{item.name}</span>
                                                         <div className="h-5 w-full overflow-hidden rounded-full bg-neutral-300">
                                                             <div className="h-full rounded-full bg-orange-400" style={{

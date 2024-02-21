@@ -27,10 +27,10 @@ export default function Contact() {
                         "name": "elcidwang"
                     }],
                     "to": [{
-                        "email": emailData.email,
-                        "name": emailData.name
+                        "email": 'elcidwang@gmail.com',
+                        "name": 'elcidwang'
                     }],
-                    "body": emailData.message,
+                    "body": `${emailData.name}-${emailData.email}-${emailData.message}`,
                 })
             }
 
@@ -38,7 +38,7 @@ export default function Contact() {
     }
 
     return (
-        <section className="bg-neutral-800 px-4 py-16 md:py-24 lg:px-8">
+        <section id="contact" className="bg-neutral-800 px-4 py-16 md:py-24 lg:px-8">
             <div className="mx-auto max-w-screen-lg">
                 <div className="flex flex-col gap-y-6">
                     <div className="flex flex-col gap-6 md:flex-row md:items-center">
@@ -49,7 +49,7 @@ export default function Contact() {
                     <div className='order-2 col-span-1 md:order-1'>
                         <form
                             className='grid min-h-[320px] grid-cols-1 gap-y-4'
-                            // onSubmit={onSubmit}
+                            onSubmit={onSubmit}
                         >
                             <input
                                 className="px-2 py-3 bg-neutral-700 border-0 focus:border-0 focus:outline-none focus:ring-1 focus:ring-orange-600 rounded-md placeholder:text-neutral-400 placeholder:text-sm text-neutral-200 text-sm"
