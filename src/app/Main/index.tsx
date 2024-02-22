@@ -9,7 +9,7 @@ export default function Main() {
         <section className="h-screen bg-[url('/main-bg.jpg')] bg-cover bg-center flex items-center justify-center flex-col">
             <div className='flex flex-col gap-y-6 items-center'>
                 <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">I&rsquo;m ElCid Wang.</h1>
-                <h4 className="text-5xl text-white">A Developer</h4>
+                <h4 className="text-3xl text-white sm:text-4xl lg:text-6xl">A Developer</h4>
                 <div className="text-white flex gap-x-4">
                     <a
                         href="mailto:elcidwang@gmail.com"

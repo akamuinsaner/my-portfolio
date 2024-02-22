@@ -56,10 +56,10 @@ const SKILLS = [
 
 export default function Information() {
     return (
-        <section id="information" className="bg-[url('/info-bg.jpg')] bg-cover md:py-24 lg:px-8 p-4">
+        <section id="information" className="bg-cover md:py-24 lg:px-8 p-4">
             <div className="mx-auto max-w-screen-lg divide-y-2 divide-neutral-300">
                 <div className="grid grid-cols-1 gap-y-4 py-8 first:pt-0 last:pb-0 md:grid-cols-4">
-                    <div className="col-span-1 flex justify-center md:justify-start">
+                    <div className="col-span-1 flex justify-start">
                         <h2 className="self-baseline text-xl font-bold uppercase text-neutral-800 border-solid border-orange-500 border-l-4 pl-4">Education</h2>
                     </div>
                     <div className="col-span-1 flex flex-col md:col-span-3">
@@ -74,7 +74,7 @@ export default function Information() {
                     </div>
                 </div>
                 <div className="grid grid-cols-1 gap-y-4 py-8 first:pt-0 last:pb-0 md:grid-cols-4">
-                    <div className="col-span-1 flex justify-center md:justify-start">
+                    <div className="col-span-1 flex justify-start">
                         <h2 className="self-baseline text-xl font-bold uppercase text-neutral-800 border-solid border-orange-500 border-l-4 pl-4">Work</h2>
                     </div>
                     <div className="col-span-1 flex flex-col md:col-span-3 gap-y-8">
@@ -165,7 +165,7 @@ export default function Information() {
                     </div>
                 </div>
                 <div className="grid grid-cols-1 gap-y-4 py-8 first:pt-0 last:pb-0 md:grid-cols-4">
-                    <div className="col-span-1 flex justify-center md:justify-start">
+                    <div className="col-span-1 flex justify-start">
                         <h2 className="self-baseline text-xl font-bold uppercase text-neutral-800 border-solid border-orange-500 border-l-4 pl-4">Skills</h2>
                     </div>
                     <div className="col-span-1 flex flex-col md:col-span-3">
@@ -195,7 +195,7 @@ export default function Information() {
                     </div>
                 </div>
                 <div className="grid grid-cols-1 gap-y-4 py-8 first:pt-0 last:pb-0 md:grid-cols-4">
-                    <div className="col-span-1 flex justify-center md:justify-start">
+                    <div className="col-span-1 flex justify-start">
                         <h2 className="self-baseline text-xl font-bold uppercase text-neutral-800 border-solid border-orange-500 border-l-4 pl-4">Projects</h2>
                     </div>
                     <div className="col-span-1 md:col-span-3 gap-y-8 flex flex-col">
