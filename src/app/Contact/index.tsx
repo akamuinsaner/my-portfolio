@@ -95,11 +95,11 @@ export default function Contact() {
                             <dd className="flex items-center">
                                 <a
                                     className="-m-2 flex rounded-md p-2 text-neutral-300 hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 hover:text-white"
-                                    href="https://www.linkedin.com/in/shuai-wang-877a432b1/"
+                                    href="https://www.linkedin.com/in/elcidwang/"
                                     target="_blank"
                                 >
                                     <LinkedInIcon className="h-4 w-4 flex-shrink-0 text-neutral-100 sm:h-5 sm:w-5" />
-                                    <span className="ml-3 text-sm sm:text-base">https://www.linkedin.com/in/shuai-wang-877a432b1/</span>
+                                    <span className="ml-3 text-sm sm:text-base">https://www.linkedin.com/in/elcidwang/</span>
                                 </a>
                             </dd>
                             <dd className="flex items-center">

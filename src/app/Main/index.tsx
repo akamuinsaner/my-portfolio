@@ -8,7 +8,7 @@ export default function Main() {
     return (
         <section className="h-screen bg-[url('/main-bg.jpg')] bg-cover bg-center flex items-center justify-center flex-col">
             <div className='flex flex-col gap-y-6 items-center'>
-                <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">I&rsquo;m Shuai Wang.</h1>
+                <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">I&rsquo;m ElCid Wang.</h1>
                 <h4 className="text-5xl text-white">A Developer</h4>
                 <div className="text-white flex gap-x-4">
                     <a
@@ -19,7 +19,7 @@ export default function Main() {
                         <MailOutlineIcon fontSize="large" />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/shuai-wang-877a432b1/"
+                        href="https://www.linkedin.com/in/elcidwang/"
                         className="hover:text-black"
                         target="_blank"
                     >
