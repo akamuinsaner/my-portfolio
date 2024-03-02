@@ -39,6 +39,9 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
+            <div className='p-2 text-center text-white'>
+                <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2024045238号-1</a>
+            </div>
         </footer>
     )
 }
